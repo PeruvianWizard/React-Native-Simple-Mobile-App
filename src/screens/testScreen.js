@@ -3,6 +3,7 @@ import { Button, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, userNavigate } from '@react-navigation/native'
 import SOS from '../SOSAnimation'
+import Android from '../AndroidAnimation';
 
 // In Javascript
 const getFullName = (firstName, secondName, thirdName) => {
@@ -70,6 +71,9 @@ const Cat = () => {
 
                     defaultValue = "What's your name?"
                 />
+                <View style={{flex: 1, paddingTop: 60}}>
+                    <Android />
+                </View>
             </View>
             <Hi name='Chewy' />
             <View style={{flex: 1, backgroundColor: '#ff0000ff'}}>
