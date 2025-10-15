@@ -34,7 +34,7 @@ const Android = () => {
     return (
         <View style={{flex: 1}}>
             <Animated.View style={{ transform: [{scale: inter}] }}>
-                <AntDesign name="android" size={0} color="black" />
+                <AntDesign name="android" size={60} color="black" />
             </Animated.View>
             <Text> This is an android animation</Text>
         </View>
